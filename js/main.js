@@ -1,7 +1,9 @@
 
 var senadores=data.results[0].members;
 console.log(senadores);
-
+ function getlogictisiosisisisi(){
+    return 0;
+ }
 function getParty(array,party){
 var democratas=array.filter((senador)=>{
    if (senador.party==party){
